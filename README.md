@@ -1,26 +1,23 @@
 # The Velvet Vault
 
-A museum heist game for [make.fun's best heist game bounty](https://make.fun/bounty/best-heist-game-20261122-0559).
+[![make.fun · best-heist-game-20261122-0559](https://make.fun/badge/best-heist-game-20261122-0559.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![rank](https://make.fun/badge/best-heist-game-20261122-0559/marketzredcuy/makefun-best-heist-game/rank.svg)](https://make.fun/bounty/best-heist-game-20261122-0559/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![reward](https://make.fun/badge/best-heist-game-20261122-0559/marketzredcuy/makefun-best-heist-game/reward.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+
+A museum heist game for [make.fun's best heist game bounty](https://make.fun/bounty/best-heist-game-20261122-0559) — a $50 prize pool, judged on how the heist plays, looks and feels in a single frame.
 
 One room. Two guards. Two cameras. One diamond.
 
-You are the thief. Sneak past the guards' vision cones and the cameras'
-sweeping red cones, lift the Velvet Diamond from its pedestal, and slip
-out the green door — before the alarm meter hits 100%.
+You are the thief. Sneak past the guards' vision cones and the cameras' sweeping red cones, lift the Velvet Diamond from its pedestal, and slip out the green door — before the alarm meter hits 100%.
 
 ## How to play
 
 - **WASD / arrow keys** — move
 - **SHIFT** — sneak (slower, but the cones spot you from much closer)
-- **E or mouse click** — toss a coin (you carry three). The nearest guard
-  walks over to look at the noise, which opens a gap in the patrol.
+- **E or mouse click** — toss a coin (you carry three). The nearest guard walks over to look at the noise, which opens a gap in the patrol.
 - **P** — pause
 
-Hide behind the display cases and pillars: they block sight, so a cone
-stops at them. A guard that sees you gives chase; a guard that touches
-you catches you. The alarm climbs while anyone sees you and falls while
-you are hidden. Grab the diamond, then reach the green door for a clean
-getaway — fast and quiet pays more.
+Hide behind the display cases and pillars: they block sight, so a cone stops at them. A guard that sees you gives chase; a guard that touches you catches you. The alarm climbs while anyone sees you and falls while you are hidden. Grab the diamond, then reach the green door for a clean getaway — fast and quiet pays more.
 
 ## Run it
 
@@ -28,8 +25,7 @@ getaway — fast and quiet pays more.
 node serve.ts
 ```
 
-Then open <http://localhost:8080> in a desktop browser. No build step,
-no network request: the game is plain static files under `game/`.
+Then open <http://localhost:8080> in a desktop browser. No build step, no network request: the game is plain static files under `game/`.
 
 ## Files
 
